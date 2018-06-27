@@ -1,0 +1,50 @@
+.app {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.app-title {
+display: block;
+font-size: 22px;
+margin: 15px 0;
+}
+
+.app-clock {
+  margin: 15px 0;
+}
+
+.app-input {
+  display: inline-block;
+  border: 1px solid rgb(181, 222, 255);
+  border-radius: 10px;
+  margin: 15px auto;
+  overflow: hidden;
+}
+
+.app-input button{
+  padding: 5px 10px;
+}
+
+.app-input input {
+  border: 0;
+  outline: 0;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.app-input button {
+  display: inline-block;
+  border: 0;
+  outline: 0;
+  background-color: rgb(181, 222, 255);
+  height: 32px;
+}
+
+.app-input button:hover {
+  background-color: rgb(155, 210, 255);
+}
+
+.clock {
+  display: inline;
+  margin: 10px;
+}
